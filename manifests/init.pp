@@ -31,7 +31,7 @@ class jenkins::service {
 class jenkins::package {
   package {
     "jenkins" :
-      ensure => installed;
+      ensure => latest;
   }
 }
 
